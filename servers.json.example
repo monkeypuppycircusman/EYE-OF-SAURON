@@ -1,0 +1,36 @@
+{
+  "BotSettings": {
+    "COMMAND_PREFIX": "!",
+    "ADMIN_LOG_CHANNEL_ID": 0,
+    "GAME_CHAT_CHANNEL_ID": 0,
+    "ENABLE_RCON_CHAT_MONITORING": true,
+    "STAFF_ROLE_NAME": "Staff",
+    "TICKET_CATEGORY_NAME": "Tickets",
+    "CHAT_LOOP_SERVER_NAME": "DefaultServer",
+    "CROSS_CHAT_ROLES": ["Game Chat", "admin", "staff", "owner"],
+    "XP_RANGE": [5, 10],
+    "XP_COOLDOWN_SECONDS": 60,
+    "LEVEL_XP_BASE": 100,
+    "DEFAULT_POLL_EMOJIS": ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"],
+    "WORD_FILTER_TIMEOUT_MINUTES": 5,
+    "ROLE_REWARDS": {
+      "5": "Veteran",
+      "10": "Elite",
+      "20": "Legend"
+    }
+  },
+  "servers": {
+    "DefaultServer": {
+      "RCON_HOST": "your.server.ip.here",
+      "RCON_PORT": 27020,
+      "RCON_PASSWORD": "your_rcon_password_here",
+      "GAME_CHAT_CHANNEL_ID": 0
+    },
+    "SecondServer": {
+      "RCON_HOST": "second.server.ip.here",
+      "RCON_PORT": 27020,
+      "RCON_PASSWORD": "your_rcon_password_here",
+      "GAME_CHAT_CHANNEL_ID": 0
+    }
+  }
+}
